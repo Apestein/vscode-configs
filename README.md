@@ -1,11 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "capslock",
-    "command": "extension.vim_escape",
-    "when": "editorTextFocus && vim.active && !inDebugRepl"
-  },
-  {
     "key": "alt+j",
     "command": "cursorLeft",
     "when": "textInputFocus"
