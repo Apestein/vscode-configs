@@ -1,0 +1,67 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "editor.tabSize": 2,
+  "editor.lineNumbers": "relative",
+  "explorer.confirmDelete": false,
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["h"],
+      "after": ["i"]
+    },
+    {
+      "before": ["i"],
+      "after": ["k"]
+    },
+    {
+      "before": ["k"],
+      "after": ["j"]
+    },
+    {
+      "before": ["j"],
+      "after": ["h"]
+    },
+    {
+      "before": ["h"],
+      "after": ["i"]
+    }
+  ],
+
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["h"],
+      "after": ["i"]
+    },
+    {
+      "before": ["i"],
+      "after": ["k"]
+    },
+    {
+      "before": ["k"],
+      "after": ["j"]
+    },
+    {
+      "before": ["j"],
+      "after": ["h"]
+    },
+    {
+      "before": ["h"],
+      "after": ["i"]
+    }
+  ],
+
+  "window.titleBarStyle": "custom",
+  "window.customMenuBarAltFocus": false,
+  "window.enableMenuBarMnemonics": false,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}
